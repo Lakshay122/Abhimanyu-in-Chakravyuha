@@ -81,3 +81,21 @@ int main() {
 Time Complexity (TC): O(n log a) - This is due to the heap operations for finding the 'a' largest enemies.
 Space Complexity (SC): O(n + a) - O(n) for the enemies array and O(a) for the heap and skip set.
 */
+
+
+//Test Case 1:
+// Enter the initial power of Abhimanyu: 50
+// Enter the number of times Abhimanyu can skip fighting an enemy: 1
+// Enter the number of times Abhimanyu can recharge his power: 0
+// Enter the powers of enemies in each circle: 1 2 3 4 5 6 7 8 9 10 1
+
+// Abhimanyu cannot reach the army of the Pandavas
+
+
+//Test Case 2:
+// Enter the initial power of Abhimanyu: 51
+// Enter the number of times Abhimanyu can skip fighting an enemy: 1
+// Enter the number of times Abhimanyu can recharge his power: 0
+// Enter the powers of enemies in each circle: 1 2 3 4 5 6 7 8 9 10 1
+
+// Abhimanyu can reach the army of the Pandavas
